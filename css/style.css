@@ -1,0 +1,247 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background: #eeeeed;
+}
+
+h2 {
+  text-align: center;
+}
+
+.image-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/*Navbar*/
+.navbar {
+  background-color: #eeeeed;
+  padding: 30px 0 0 0;
+}
+nav .col-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-btn {
+  width: calc(1px + 140 * (100vw / 320));
+  height: calc(1px + 30 * (100vw / 320));
+  font-size: calc(1px + 14 * (100vw / 320));
+  font-weight: 700;
+  color: #005c7b;
+  background: #eeeeed;
+  box-shadow: -3px -3px 4px rgba(255, 255, 255, 0.8),
+    3px 3px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  border: none;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.navbar-toggler {
+  padding: 7px 10px;
+  border-radius: 1rem;
+}
+
+.nav-text {
+  font-size: calc(1px + 12 * (100vw / 320));
+  color: #005c7b;
+  margin: 11px 0 8px 0;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(1px + 12 * (100vw / 320));
+  color: #005c7b;
+}
+
+/*Main part*/
+.first-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-block .text {
+  font-size: calc(1px + 24 * (100vw / 320));
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #008daa;
+}
+
+.text {
+  font-size: calc(1px + 12 (100vw / 320));
+  margin-top: 10px;
+  line-height: calc(1px + 14 (100vw / 320));
+  /* identical to box height */
+  text-align: center;
+  color: #005c7b;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: calc(1px + 24 * (100vw / 320));
+  line-height: calc(1px + 28 (100vw / 320));
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #005c7b;
+}
+
+.second-block {
+  background-image: url("/images/women.png");
+  height: 65vh;
+  background-size: cover;
+  display: flex;
+  background-position: bottom;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.btn-second {
+  width: calc(1px + 200 * (100vw / 320));
+  height: calc(1px + 40 * (100vw / 320));
+
+  font-weight: bold;
+  font-size: calc(1px + 16 * (100vw / 320));
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background: #ffb800;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  border: none;
+}
+
+.center-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+i {
+  margin: 10px;
+}
+ul li.social {
+  display: inline;
+  font-size: calc(1px + 40 * (100vw / 320));
+}
+
+.fa {
+  color: #005c7b;
+}
+
+.third-row {
+  color: white;
+  background-color: #005c7b;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.third-row img {
+  fill: #fff;
+  width: 50px;
+}
+
+.benefits {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.third-row ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-row span {
+  font-size: calc(1px + 16 * (100vw / 320));
+  margin: 20px 0;
+  text-align: center;
+}
+
+.mrgn {
+  margin: 15px;
+}
+
+h2 {
+  font-size: calc(1px + 24 * (100vw / 320));
+  line-height: calc(1px + 28 (100vw / 320));
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 40px auto;
+  color: #005c7b;
+}
+
+.forth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-scroll {
+  height: 80%;
+}
+
+.fifth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  background: #eeeeed;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.15),
+    -3px -3px 9px rgba(255, 255, 255, 0.8);
+  border-radius: 30px;
+  border: none;
+  font-size: calc(1px + 14 * (100vw / 320));
+  width: calc(1px + 284 * (100vw / 320));
+  height: calc(1px + 50 * (100vw / 320));
+  padding-left: calc(1px + 30 * (100vw / 320));
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  color: #005c7b;
+  font-weight: bold;
+  margin: 10px 0;
+}
+input::placeholder {
+  color: #005c7b;
+}
+footer {
+  margin-top: 50px;
+  width: 10vh;
+  background-color: black;
+}
