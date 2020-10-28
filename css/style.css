@@ -102,7 +102,7 @@ h1 {
 }
 
 .second-block {
-  background-image: url("./images/women.png");
+  background-image: url("../images/women.png");
   height: 65vh;
   background-size: cover;
   display: flex;
