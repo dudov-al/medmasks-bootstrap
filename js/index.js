@@ -13,3 +13,8 @@ $(document).ready(function () {
     $('.animated-icon3').toggleClass('open');
   });
 });
+
+// MDB Lightbox Init
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
