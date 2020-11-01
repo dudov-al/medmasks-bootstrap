@@ -281,17 +281,17 @@ footer {
     flex-wrap: wrap-reverse;
   }
   nav a {
-    font-size: calc(18px + 1 * (100vw / 992));
+    font-size: calc(16px + 1 * (100vw / 992));
     padding-right: 20px;
   }
   .nav-btn {
-    font-size: calc(18px + 1 * (100vw / 992));
+    font-size: calc(16px + 1 * (100vw / 992));
     width: auto;
     height: auto;
     padding: 10px 20px;
   }
   .nav-text {
-    font-size: calc(18px + 1 * (100vw / 992));
+    font-size: calc(16px + 1 * (100vw / 992));
     display: none;
   }
   .first-block {
